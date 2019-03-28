@@ -1,6 +1,4 @@
 # VRM Parameter Viewer
-
-## Overview
 This is a viewer that displays the parameters in the VRM file.
 
 ![image1](https://github.com/izayoijiichan/vrm.parameter.viewer/blob/master/images/screenshot_1.png)
@@ -25,6 +23,11 @@ Download exe and place it anywhere.
     - Drag and drop the VRM file onto the form.
     - Specify the path to the VRM file with command line arguments at startup.
 
+## Specification Version
+- UniVRM: v0.51.0 (15 Feb, 2019)
+- UniVRM JSON Schema: [0.0](https://github.com/dwango/UniVRM/tree/master/specification/0.0/schema)
+- glTF JSON Schema: [2.0](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0/schema)
+
 ## Implementation
 - VRM
     - meta
@@ -33,6 +36,9 @@ Download exe and place it anywhere.
     - blendShapeMaster
     - secondaryAnimation
     - materialProperties (uncompleted)
+        - Standard (unimplemented)
+        - VRM/MToon
+        - VRM/UniUnlit
 - glTF
     - accessors
     - animations (unimplemented)
@@ -50,6 +56,6 @@ Download exe and place it anywhere.
     - skins
     - textures
 
-
 ## Link
+- [VRM](https://dwango.github.io/vrm/)
 - [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
