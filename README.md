@@ -10,8 +10,8 @@ Reads the specified VRM file and displays glTF and VRM extended information.
 
 ## Requirement
 - Windows 10
-- .NET Framework 4.5 or higher
-- Newtonsoft.Json.dll 12.0 (MIT License)
+- .NET Core 3.0
+- Newtonsoft.Json.dll 12.0
 
 ## Installation
 Download exe and place it anywhere.
@@ -24,8 +24,8 @@ Download exe and place it anywhere.
     - Specify the path to the VRM file with command line arguments at startup.
 
 ## Specification Version
-- UniVRM: v0.51.0 (15 Feb, 2019)
-- UniVRM JSON Schema: [0.0](https://github.com/dwango/UniVRM/tree/master/specification/0.0/schema)
+- UniVRM: v0.53.0 (5 Jun, 2019)
+- UniVRM JSON Schema: [0.0](https://github.com/vrm-c/UniVRM/tree/master/specification/0.0/schema)
 - glTF JSON Schema: [2.0](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0/schema)
 
 ## Implementation
@@ -57,5 +57,5 @@ Download exe and place it anywhere.
     - textures
 
 ## Link
-- [VRM](https://dwango.github.io/vrm/)
+- [VRM](https://github.com/vrm-c/UniVRM)
 - [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
